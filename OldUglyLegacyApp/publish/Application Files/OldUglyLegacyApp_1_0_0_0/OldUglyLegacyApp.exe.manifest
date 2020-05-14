@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OldUglyLegacyApp.exe" version="1.0.0.0" publicKeyToken="fcd195c053460eec" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OldUglyLegacyApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="OldUglyLegacyApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OldUglyLegacyApp.exe" size="13240">
+      <assemblyIdentity name="OldUglyLegacyApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Phadki413CDnM90Tl3PqoPLDmhZwFBF1zl4z3Afayw4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="OldUglyLegacyApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SYx/jocvnO8M8E99KQzzgEyCoAcgLJtIQSjJTQMED9A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CRMP\BdBlanken" issuerKeyHash="0f5adefc9ab4014a20031efaab1d4ee01784218f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Q5f4q0igSSA0TH2btzxr0P6OJGzjGGYgvBXfLdMbAho=</DigestValue></Reference></SignedInfo><SignatureValue>E5I/6UEDQpODjcK/0fqJwwhmTlLzV3cAxFfcS/wOgfjHf1GEBL33QM4g+OEaxY23RGW+yMWbcbbcLIi6EoIEVGP9uIq6IfY1TmjYtkKLK3V/ePEb/2wX6bfsFj+KePtM4ghrmdrLXOs4gTi0+J/ONR9ypeCJGi1vbIsyIkMWE0s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5hZ/u7pjXMyr0TOkAt/OM0mle6eNySuZeXAmHnhy+fITyb7/BQY921r2NapuldG7QpYYto2wPre+ky0Ntx4FhtTSARcr7vE4N5iSLYv9FDyPyNqUdTM+TzCTMfGkktcb3H/r0mQtWqLYFnB2eFHSoWqw7MuIm9fS7fv1LYC9Hc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1a021bd32ddf15bc206618e36c248efed06b3cb79b7d4c342049a048abf89743" Description="" Url=""><as:assemblyIdentity name="OldUglyLegacyApp.exe" version="1.0.0.0" publicKeyToken="fcd195c053460eec" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CRMP\BdBlanken</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mVInPFAvTA57bPUhAlKhNBGVTOAAAsJIg3MLcKHiSqU=</DigestValue></Reference></SignedInfo><SignatureValue>JYjW44o3o827VtxS9sA/dSR9xFwnNy2ghWhUHVKyDf8O2Ue1PUK0OaKzUJ0/WNLbwALMW5KLaEIxWZt8f7Km7JE0owNf+X0rEJ9Djvw69ungNwTdNL9xpln9DLZOwld7aqzv9A/4mMgzTbGJGIEKlaniH0/mfWaSStoGts3lulQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5hZ/u7pjXMyr0TOkAt/OM0mle6eNySuZeXAmHnhy+fITyb7/BQY921r2NapuldG7QpYYto2wPre+ky0Ntx4FhtTSARcr7vE4N5iSLYv9FDyPyNqUdTM+TzCTMfGkktcb3H/r0mQtWqLYFnB2eFHSoWqw7MuIm9fS7fv1LYC9Hc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQQtr1JAjkgKhIbfmc9vPH8jANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQwBSAE0AUABcAEIAZABCAGwAYQBuAGsAZQBuMB4XDTIwMDEyNjIxNTAwN1oXDTIxMDEyNjAzNTAwN1owJzElMCMGA1UEAx4cAEMAUgBNAFAAXABCAGQAQgBsAGEAbgBrAGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5hZ/u7pjXMyr0TOkAt/OM0mle6eNySuZeXAmHnhy+fITyb7/BQY921r2NapuldG7QpYYto2wPre+ky0Ntx4FhtTSARcr7vE4N5iSLYv9FDyPyNqUdTM+TzCTMfGkktcb3H/r0mQtWqLYFnB2eFHSoWqw7MuIm9fS7fv1LYC9Hc0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQB/De/23J+yLS3aaVjboUXXYlOZMDlw7dSXF/B7r6TjGNN1cryiIlZnkO51EGkWEKlbH8nMyPeJRBZSefS8+Qwr2foqHCd69pp6hqjqWGppGdAwSeTlheCCpFXMU6rrHpq59L7bjS2KNzJ3kT0Ge9dH4FmhDYaiexF2MKWpbpsDVg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

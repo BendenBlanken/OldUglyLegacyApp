@@ -1,0 +1,14 @@
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.csprojAssemblyReference.cache
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.AddUserForm.resources
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.Properties.Resources.resources
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.csproj.GenerateResource.cache
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.csproj.CoreCompileInputs.cache
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\bin\Debug\OldUglyLegacyApp.exe.config
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\bin\Debug\OldUglyLegacyApp.exe
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\bin\Debug\OldUglyLegacyApp.pdb
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.exe
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.pdb
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\bin\Debug\OldUglyLegacyApp.exe.manifest
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\bin\Debug\OldUglyLegacyApp.application
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.exe.manifest
+C:\Users\bdblanken\source\repos\OldUglyLegacyApp\OldUglyLegacyApp\obj\Debug\OldUglyLegacyApp.application
